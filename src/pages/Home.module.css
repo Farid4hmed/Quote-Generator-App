@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+}
+
+.diceWrapper{
+        border-radius: 50%;
+        position: absolute;
+        width: 69px;
+        height: 69px;
+        left: 47.7%;
+        top: 51.4%;
+        background:#55FCAA;
+}
+
+.face{
+    padding: 9%;
+    margin-left: 21%;
+    border-radius: 20%;
+    height: 40%;
+    width: 40%;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.topLeft{
+    background: #55FCAA;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    place-self: center;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.topRight{
+    background: #55FCAA;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    place-self: center;
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+
+.middle{
+    background: #55FCAA;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    place-self: center;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.bottomLeft{
+    background: #55FCAA;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    place-self: center;
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
+
+.bottomRight{
+    background: #55FCAA;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    place-self: center;
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
