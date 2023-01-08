@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import QuoteCard from "../components/QuoteCard/QuoteCard";
 import {getQuote, getQuoteNum} from "../api/getQuote";
 import styles from "./Home.module.css";
@@ -37,6 +37,7 @@ export default function Home(){
 
     return (
         <div style={{backgroundColor:randomColor1}}className={styles.container}>
+        <div className={styles.parent_div}>
             <QuoteCard quote={quote} quoteNum={quoteNum} random2={randomColor2}/>
             <button className={styles.diceWrapper} onClick={handleClick}>
             <div className={styles.face}>
@@ -47,6 +48,7 @@ export default function Home(){
                 <div className={styles.bottomRight}></div>
             </div>
             </button>
+        </div>
         </div>
 
     );
