@@ -10,12 +10,13 @@
 }
 
 .quoteNum{
+    text-shadow: #444E5C;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     color: #55FCAA;
     margin-top: 10%;
     font-weight: 700;
-    font-size: large;
+    font-size: larger;
 }
 .quote{
     padding: 10%;
@@ -38,8 +39,8 @@
     height: 2px;
     background: #444E5C;
     max-width: 35%;
-    margin-top: 36%;
-    margin-left: 10%;
+    margin-top: 38%;
+    margin-left: 10.3%;
 
 }
 
@@ -48,15 +49,15 @@
     height: 2px;
     background: #444E5C;
     max-width: 35%;
-    margin-top: 36%;
+    margin-top: 38%;
     margin-left: 9%;
 }
 
 .rectangle1{
     position: absolute;
-    margin-top: 34.4%;
-    margin-left: 50.6%;
-    height: 18px;
+    margin-top: 36.2%;
+    margin-left: 50.8%;
+    height: 20px;
     width: 7px;
     background-color: white;
     border-radius: 32%;
@@ -64,9 +65,9 @@
 
 .rectangle2{
     position: absolute;
-    margin-top: 34.4%;
-    margin-left: 47.3%;
-    height: 18px;
+    margin-top: 36.2%;
+    margin-left: 47.5%;
+    height: 20px;
     width: 7px;
     background-color: white;
     border-radius: 32%;

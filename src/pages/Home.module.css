@@ -88,3 +88,8 @@
     grid-row-start: 3;
     grid-column-start: 3;
 }
+
+.diceWrapper:hover{
+        width: 79px;
+        height: 79px;
+}

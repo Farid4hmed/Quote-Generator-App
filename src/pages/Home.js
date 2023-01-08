@@ -7,8 +7,8 @@ import styles from "./Home.module.css";
 export default function Home(){
     const [quote, setQuote] = useState("Click on the dice to get a free advice.");
     const [quoteNum, setQuoteNum] = useState(1);
-    const [randomColor1, setRandomColor1] = useState("white");
-    const [randomColor2, setRandomColor2] = useState("black");
+    const [randomColor1, setRandomColor1] = useState("#1b202a");
+    const [randomColor2, setRandomColor2] = useState("#313A49");
     
     function randomColor(){
         const randomClr1 = `#${Math.floor(Math.random() * 0xffffff).toString(16)}`;
